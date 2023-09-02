@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dancing+Script:wght@500&family=Manrope:wght@200&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-image: url(https://www.nawpic.com/media/2020/abstract-nawpic-18.jpg);
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.login-page {
+    border-radius: 20px;
+    background: #c19f9f;
+    box-shadow:  12px 12px 24px #a48787, -12px -12px 24px #deb7b7;
+    padding: 100px;
+    background-image: url(https://wallpaperaccess.com/full/482776.jpg)
+}
+
+
+.login-page h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30%;
+    position: relative;
+}
+
+input {
+    height: 6vh;
+    border-radius: 3rem;
+    padding: 10px;
+    width: 250px;
+    color: black;
+}
+
+label {
+    font-size: 20px;
+    align-items: center;
+}
+
+form {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+button {
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    width: 83%;
+    height: 5vh;
+    font-size: 20px;
+    background-color: rgb(30, 120, 75);
+    border: none;
+}
